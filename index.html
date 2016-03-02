@@ -1,51 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>HIE of One by HIEofOne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>HIE of One by HIEofOne</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>HIE of One</h1>
-        <h2>Your personal UMA Authorization Server</h2>
-        <a href="https://github.com/HIEofOne/PublicWebsite" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+    <section class="page-header">
+      <h1 class="project-name">HIE of One</h1>
+      <h2 class="project-tagline">Your personal UMA Authorization Server</h2>
+      <a href="https://github.com/HIEofOne/PublicWebsite" class="btn">View on GitHub</a>
+      <a href="https://github.com/HIEofOne/PublicWebsite/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/HIEofOne/PublicWebsite/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <p><strong>Please email <a href="mailto:agropper@gmail.com">agropper@gmail.com</a> to get invited to this GitHub project.</strong></p>
+    <section class="main-content">
+      <p><strong>Please check out the technical <a href="https://github.com/HIEofOne/PersonalAS/wiki">wiki</a> and email <a href="mailto:agropper@gmail.com">agropper@gmail.com</a> to get invited to this GitHub project.</strong></p>
 
 <hr>
 
 <p>Application Programming Interfaces or APIs are everywhere from your electronic health record, to your car, to your wearable, and even to your implant. These APIs share your most personal information via the Internet and are typically subject to your consent through a so-called Authorization Server. The Authorization Server is, in the legal sense, acting as your Agent and follows well established Agency Law. </p>
 
-<p>All sorts of businesses, including Apple, Google, and Facebook are eager to serve as your Authorization Agent because they benefit from access to your personal data. But that benefit also comes at a cost to your privacy and represents a business risk to the hospital or Thing manufacturer that would prefer to have a direct relationship with you as the customer.</p>
+<p>All sorts of businesses, including Apple, Google, and Facebook are eager to serve as your Authorization Agent because they benefit from access to your personal data. But that benefit also comes at a cost to your privacy and represents a business risk to the doctor or device manufacturer that would prefer to have a direct relationship with you as the customer.</p>
 
-<p>As Web API standards are now available, a new opportunity arises in the provision of a standardized <em>personal</em> Authorization Server. As with other personal agents such as your Firefox browser, or Freedom Box personal cloud, the project we’re calling HIE of One will be open source and owned by nobody but you. </p>
+<p>As OAuth web API standards are now available, a new opportunity arises in the provision of a standardized <em>personal</em> OAuth Authorization Server. As with other personal agents such as your Firefox browser, or FreedomBox personal cloud, the project we’re calling HIE of One will be open source and owned by nobody but you. </p>
 
 <p>This consumer-focused implementation of the UMA Authorization Server will not force the person to accept a broker or other institution as her agent with all of the privacy risks and potential conflicts of interest that entails.</p>
 
 <hr>
 
 <h3>
-<a id="project-goal" class="anchor" href="#project-goal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project Goal</h3>
+<a id="project-goal" class="anchor" href="#project-goal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Goal</h3>
 
-<p>HIE of One will  provide a standards-based platform for durable relationship between customers and vendors. Our approach lowers the barrier to adoption by the vendors by </p>
+<p>HIE of One will  provide a standards-based platform for durable relationship between customers and vendors. Our approach lowers the barrier to adoption by the vendors by: </p>
 
 <ul>
 <li>not introducing a new party to their base customer relationship,</li>
@@ -53,34 +44,24 @@
 <li>offering an accessible reference implementation for both the vendor and any requesting party client to test against.</li>
 </ul>
 
-<p>The benefit of this approach to both the customer and the vendor is trust, in that valuable behavioral data does not leak to intermediary brokers. We will use UMA 1.0.1 as the core standard and suggest changes for UMA as gaps are identified. OpenID Connect, CommonAccord, and MVCR will be referenced as appropriate.</p>
+<p>The benefit of this approach to both the customer and the vendor is trust, in that valuable behavioral data does not leak to intermediary brokers. We will use UMA 1.0.1 as the core standard and suggest changes for UMA as gaps are identified.</p>
 
 <hr>
 
 <h3>
-<a id="resources" class="anchor" href="#resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Resources</h3>
+<a id="resources" class="anchor" href="#resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h3>
+
+<p>A <a href="https://www.youtube.com/watch?v=QX2JbYg2TZI&amp;feature=youtu.be">14-minute video</a> of a proof-of-concept demo by Michael Chen, MD and a <a href="http://thehealthcareblog.com/blog/2016/01/23/the-patient-centered-health-record/">write-up</a>by another family physician.</p>
 
 <p><a href="http://bit.ly/HEART-seq">Baseline HEART Sequence Diagram</a> is a step-by-step example.</p>
 
-<p><a href="http://futurecommerce.civics.com/index.html">MIT FutureCommerce Hackathon</a> Project introduction <a href="https://youtu.be/wzHBsa2NKAg">video</a></p>
-        </section>
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/HIEofOne/PublicWebsite">HIE of One</a> is maintained by <a href="https://github.com/HIEofOne">HIEofOne</a>.</span>
 
-        <aside id="sidebar">
-          <a href="https://github.com/HIEofOne/PublicWebsite/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/HIEofOne/PublicWebsite/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
 
-          <p class="repo-owner"><a href="https://github.com/HIEofOne/PublicWebsite"></a> is maintained by <a href="https://github.com/HIEofOne">HIEofOne</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
+    </section>
 
             <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
